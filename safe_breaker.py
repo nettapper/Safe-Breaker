@@ -1,6 +1,6 @@
 #Conner Dunn
-#Safe Breaker v0.0.14
-#Last Edited: Mar 1, 2012
+#Safe Breaker v0.0.15
+#Last Edited: Oct 23, 2012
 import random
 import time
 
@@ -12,7 +12,7 @@ passwordGuess = 0
 easyHighScore = ("N/A")
 mediumHighScore = ("N/A")
 hardHighScore = ("N/A")
-hardHighScore = ("N/A")
+extremeHighScore = ("N/A")
 firstEasyHighScore = 0
 firstMediumHighScore = 0
 firstHardHighScore = 0
@@ -382,7 +382,7 @@ while endGame == False:
                         print("")
                     if mediumGuesses == 25 and hints == True:
                         print("The first digit of the code is " + passwordMedium[0])
-                    if mediumGuesses == 50 and hints == True:
+                    if mediumGuesses == 50 and hints ==True:
                         print("The first digit of the code is " + passwordMedium[0])
                         print("The second digit of the code is " + passwordMedium[1])
                     while True:
